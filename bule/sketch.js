@@ -4,7 +4,7 @@ function setup() {
   createCanvas(window.innerWidth,window.innerHeight);
   for(i=0;i<100;i++){
     x[i]=random(width);
-    y[i]=height/10*11;
+    y[i]=random(height);
     s[i]=random(width/10);
     v[i]=random(1,3);
   }
