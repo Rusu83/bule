@@ -6,7 +6,7 @@ function setup() {
     x[i]=random(width);
     y[i]=height/10*11;
     s[i]=random(width/10);
-    v[i]=random(0,2);
+    v[i]=random(1,3);
   }
 }
 
@@ -21,7 +21,7 @@ function draw() {
       x[i]=random(width);
       y[i]=height/10*11;
       s[i]=random(width/10);
-      v[i]=random(0,2);
+      v[i]=random(1,3);
     }
     ellipse(x[i],y[i],s[i],s[i]);
   }
