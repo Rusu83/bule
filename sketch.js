@@ -1,4 +1,5 @@
 var i,x=[],y=[],s=[],v=[];
+var deeznuts=0;
 
 function setup() {
   createCanvas(window.innerWidth,window.innerHeight);
@@ -25,4 +26,9 @@ function draw() {
     }
     ellipse(x[i],y[i],s[i],s[i]);
   }
+  text(deeznuts,width/2,height/2);
+}
+
+function mousePressed(){
+  deeznuts++;
 }
