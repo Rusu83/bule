@@ -9,6 +9,8 @@ function setup() {
     s[i]=random(width/10);
     v[i]=random(0,2);
   }
+  textAlign(CENTER,CENTER);
+  textWeight(height/10);
 }
 
 function draw() {
@@ -26,6 +28,8 @@ function draw() {
     }
     ellipse(x[i],y[i],s[i],s[i]);
   }
+  stroke(0);
+  fill(255);
   text(deeznuts,width/2,height/2);
 }
 
