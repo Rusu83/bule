@@ -10,7 +10,7 @@ function setup() {
     v[i]=random(0,2);
   }
   textAlign(CENTER,CENTER);
-  textWeight(height/10);
+  textSize(height/9);
 }
 
 function draw() {
