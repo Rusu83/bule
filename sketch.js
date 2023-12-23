@@ -30,9 +30,4 @@ function draw() {
   }
   stroke(0);
   fill(255);
-  text(deeznuts,width/2,height/2);
-}
-
-function mousePressed(){
-  deeznuts++;
 }
